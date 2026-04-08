@@ -1,0 +1,18 @@
+{
+  "education_name": "AI och maskininlärning",
+  "program_description": "Programmet lär dig bygga, driftsätta och optimera maskininlärningsmodeller i verkligheten genom praktiskt arbete med verktyg som TensorFlow och PyTorch. Du får kompetens i MLOps, CI/CD-pipelines, versionshantering, säkerhet och edge computing, samtidigt som du förbereds för den internationella arbetsmarknaden. Programmet kombinerar teori med praktisk erfarenhet genom LIA-praktik och projektarbete.",
+  "career_options": [
+    "MLOps Engineer",
+    "AI Specialist",
+    "Machine Learning Engineer"
+  ],
+  "courses": [
+    "TensorFlow",
+    "PyTorch",
+    "CI/CD-pipelines",
+    "Versionshantering",
+    "Säkerhet",
+    "Edge computing"
+  ],
+  "length": 2.0
+}
