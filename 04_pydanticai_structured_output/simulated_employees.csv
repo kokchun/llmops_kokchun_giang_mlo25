@@ -1,4 +1,4 @@
-,name,age,gender,experience_level,job_title,salary
-0,Anna Eriksson,28,Female,Entry,Data Scientist,35000
-1,Raj Patel,35,Male,Mid level,Data Engineer,40000
-2,Sofia Martinez,42,Female,Senior,AI Engineer,48000
+name,age,gender,experience_level,job_title,salary
+Anna Eriksson,28,Female,Entry,Data Scientist,35000
+Raj Patel,35,Male,Mid level,Data Engineer,40000
+Sofia Martinez,42,Female,Senior,AI Engineer,48000
