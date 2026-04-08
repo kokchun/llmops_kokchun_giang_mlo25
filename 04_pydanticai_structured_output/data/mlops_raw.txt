@@ -1,0 +1,95 @@
+Vill du jobba i skärningspunkten mellan AI, data och teknik? Som MLOps Engineer lär du dig att bygga, driftsätta och optimera maskininlärningsmodeller i verkligheten. Utbildningen passar dig som har en teknisk bakgrund och vill ta nästa steg mot en framtidsroll där du gör avancerade AI-lösningar möjliga.
+Om programmet
+ 
+
+AI och maskininlärning används i allt fler branscher och behovet av specialister som kan ta modellerna från idé till drift växer snabbt. Som student får du spetskompetens inom maskininlärning och MLOps. Du arbetar med verktyg som TensorFlow och PyTorch och lär dig allt från CI/CD-pipelines och versionshantering till säkerhet och edge computing.
+
+ 
+
+Utbildningen bedrivs främst på svenska, men mycket kursmaterial är på engelska. Det gör att du förbereds för den internationella arbetsmiljö som präglar IT och AI-utveckling. Efter examen kan du självständigt driftsätta, optimera och förvalta ML-modeller, och bidra till nästa generations AI-lösningar.
+
+ 
+
+Fördelar med utbildningen
+
+ 
+
+Minst en fjärdedels LIA-praktik ( lärande i arbete )
+Utbildare kommer direkt från branschen
+Näringslivet är med och formar innehållet
+Goda möjligheter till jobb efter examen
+Karriärvägar
+ 
+
+Som MLOps Engineer blir du en nyckelperson som ser till att AI-lösningar fungerar i praktiken. Du är efterfrågad inom många branscher, från sjukvården, där AI används för att möta en åldrande befolkning, till företag som bygger datadrivna beslut med hjälp av Big Data. Behovet av din kompetens ökar i takt med att fler verksamheter vill skala upp sina AI-satsningar.
+
+ 
+
+Möjliga yrkesroller efter examen
+
+ 
+
+MLOps Engineer
+Stort behov av MLOps-kompetens
+ 
+
+AI utvecklas i rasande fart, men utan MLOps Engineers stannar projekten på idéstadiet. Företag behöver experter som kan implementera och integrera maskininlärningsmodeller i olika IT-miljöer, oavsett om det handlar om lokala system, molnplattformar eller edge-lösningar.
+
+ 
+
+Din kompetens gör att du kan driva AI-projekt hela vägen, vilket gör dig mycket attraktiv på arbetsmarknaden både i Sverige och internationellt.
+
+Visa mindre
+LIA-praktik
+ 
+
+Minst en fjärdedel av utbildningen består av Lärande i arbete (LIA) som är förlagd på ett företag. Här får du möjlighet att omsätta teorin i praktiska projekt tillsammans med handledare. Du bygger nätverk, skapar värdefulla kontakter och får chansen att testa yrkesrollen i verkliga situationer.
+
+ 
+
+Många studenter får sitt första jobb genom LIA.
+
+ 
+
+Här hittar du alla våra LIA-perioder
+
+Visa mindre
+Heltidsstudier
+ 
+
+Att läsa ett YH-program på plats i Solna innebär att du behöver lägga cirka 40 timmar i veckan på dina studier. Utbildningen är på heltid och du förväntas delta aktivt i projekt– och grupparbeten, föreläsningar och seminarier för att förbereda dina kunskaper för yrkesrollen
+
+Saknar du behörighet?
+ 
+
+Du kan söka till våra program även om du inte är helt behörig vid ansökningstillfället. Behöver du komplettera ett ämne eller repetera inför studierna kan du läsa en preparandkurs hos oss. Kursen avslutas med ett prov – och klarar du det blir du behörig. Kom ihåg att komplettera innan sista kompletteringsdag.
+
+ 
+
+Här kan du läsa mer om vilka preparandkurs som finns
+
+ 
+
+Här kan du läsa mer om vilka preparandkurser som finns
+
+Visa mindre
+Kursutbud
+Affärsmannaskap
+AI-förstärkt kunskapsstrategi och hybrida AI-team
+Databashantering
+Edge computing
+Visa mer
+Kontakt
+Antagningen Nackademin
+Frågor kring ansökningsprocessen, behörighetskrav eller studieupplägget, kontakta antagningen för mer information.
+
+ 
+
+Mejla oss
+
+Tel: 08-466 60 00
+
+Utbildningsledare
+Utbildningsledare Camilla Al Aokite
+Camilla Al Aokite
+Kontakta mig om du har specifika frågor om kursinnehållet.
