@@ -12,15 +12,22 @@ def init_session_state():
 
 
 # so that we can loop through them and display them in the frontend
-# send in users question to API
 # display bot answer
+
+def display_chat_messages():
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+
+# send in users question to API
 
 def layout():
     st.markdown("# Chat with Ro Båt")
     st.markdown(
         "RO BÅT is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
     )
-
+    display_chat_messages()
 
     st.write(st.session_state)
 
