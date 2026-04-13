@@ -31,13 +31,16 @@ def handle_user_input():
         # user prompt save to session state
         st.session_state.messages.append({"role": "user", "content": prompt})
 
-        response = httpx.post(
+
+        chat_response = httpx.post(
             "http://localhost:8000/chat",
             json={
                 "question": prompt,
                 "message_history": st.session_state.message_history,
             },
         )
+
+        st.session_state.message_history = chat_response.get("message_history")
 
 
 def layout():
