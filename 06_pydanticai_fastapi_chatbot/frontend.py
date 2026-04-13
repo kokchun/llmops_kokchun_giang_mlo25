@@ -21,6 +21,8 @@ def display_chat_messages():
 
 
 # send in users question to API
+def handle_user_input():
+    st.chat_input("Talk to JokeBot")
 
 def layout():
     st.markdown("# Chat with Ro Båt")
@@ -28,6 +30,7 @@ def layout():
         "RO BÅT is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
     )
     display_chat_messages()
+    handle_user_input()
 
     st.write(st.session_state)
 
