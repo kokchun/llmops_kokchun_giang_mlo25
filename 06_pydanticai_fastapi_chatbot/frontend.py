@@ -7,6 +7,8 @@ import streamlit as st
 def init_session_state():
     if "messages" not in st.session_state:
         st.session_state.messages = []
+    if "message_history" not in st.session_state:
+        st.session_state.message_history = []
 
 
 # so that we can loop through them and display them in the frontend
@@ -18,8 +20,11 @@ def layout():
     st.markdown(
         "RO BÅT is a funny robot that can help you out with programming tasks. However he doesn't directly answer your question, usually he asks another question back."
     )
+
+
     st.write(st.session_state)
 
 
 if __name__ == "__main__":
+    init_session_state()
     layout()
