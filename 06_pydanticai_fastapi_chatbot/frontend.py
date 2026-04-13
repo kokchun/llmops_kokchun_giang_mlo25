@@ -22,7 +22,9 @@ def display_chat_messages():
 
 # send in users question to API
 def handle_user_input():
-    st.chat_input("Talk to JokeBot")
+    prompt = st.chat_input("Talk to JokeBot")
+
+    st.session_state.messages.append({"role": "user", "content": prompt})
 
 def layout():
     st.markdown("# Chat with Ro Båt")
