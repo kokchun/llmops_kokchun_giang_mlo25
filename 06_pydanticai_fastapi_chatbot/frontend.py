@@ -42,6 +42,14 @@ def handle_user_input():
 
         st.session_state.message_history = chat_response.json().get("message_history")
 
+        bot_response = chat_response.json().get("response")
+
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        with st.chat_message("assistant"):
+            st.markdown(bot_response)
+
+        st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
 def layout():
     st.markdown("# Chat with Ro Båt")
@@ -51,7 +59,7 @@ def layout():
     display_chat_messages()
     handle_user_input()
 
-    st.write(st.session_state)
+    # st.write(st.session_state)
 
 
 if __name__ == "__main__":
