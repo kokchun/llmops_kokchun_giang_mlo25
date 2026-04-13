@@ -1,8 +1,9 @@
 import streamlit as st
-
+import httpx
 
 # save message_history into session state
 # want to save messages into session state
+
 
 def init_session_state():
     if "messages" not in st.session_state:
@@ -14,6 +15,7 @@ def init_session_state():
 # so that we can loop through them and display them in the frontend
 # display bot answer
 
+
 def display_chat_messages():
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
@@ -22,9 +24,21 @@ def display_chat_messages():
 
 # send in users question to API
 def handle_user_input():
-    prompt = st.chat_input("Talk to JokeBot")
+    # := is the walrus operator <->
+    # prompt = st.chat_input("Talk to JokeBot")
+    # if prompt:
+    if prompt := st.chat_input("Talk to JokeBot"):
+        # user prompt save to session state
+        st.session_state.messages.append({"role": "user", "content": prompt})
 
-    st.session_state.messages.append({"role": "user", "content": prompt})
+        response = httpx.post(
+            "http://localhost:8000/chat",
+            json={
+                "question": prompt,
+                "message_history": st.session_state.message_history,
+            },
+        )
+
 
 def layout():
     st.markdown("# Chat with Ro Båt")
