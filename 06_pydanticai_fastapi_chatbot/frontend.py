@@ -40,7 +40,7 @@ def handle_user_input():
             },
         )
 
-        st.session_state.message_history = chat_response.get("message_history")
+        st.session_state.message_history = chat_response.json().get("message_history")
 
 
 def layout():
