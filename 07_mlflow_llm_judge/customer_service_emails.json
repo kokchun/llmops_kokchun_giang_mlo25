@@ -1,0 +1,50 @@
+[
+  {
+    "input": {
+      "email": "From: Erik Lindqvist <erik.lindqvist@gmail.com>\nSubject: Broken product received - Order #78901\n\nHello,\n\nI am writing to express my deep disappointment with my recent purchase. I placed an order on your website last week and was quite excited to finally receive it. However, when the package arrived yesterday, I noticed that the box itself was already damaged, with visible dents and torn corners. I assumed it might just be the outer packaging, but unfortunately the product inside was also completely broken.\n\nThe item, which cost me 599 SEK, appears to have suffered significant damage during shipping. Several parts were cracked and one component was completely shattered. I took photos of both the packaging and the product immediately after opening the box.\n\nI have been a loyal customer for over two years now and this is the first time I have experienced such an issue. I would appreciate either a full replacement sent to my address or a complete refund of the 599 SEK I paid. I also want to flag that the packaging may need improvement to prevent this from happening to other customers.\n\nI look forward to your prompt response.\n\nBest regards,\nErik Lindqvist\nCustomer since 2022"
+    },
+    "expectations": {
+      "sender_name": "Erik Lindqvist",
+      "sender_email": "erik.lindqvist@gmail.com",
+      "issue_category": "damaged product",
+      "urgency": "high",
+      "summary": "Customer received broken item for order #78901, packaging and product both damaged during shipping, requesting replacement or full refund of 599 SEK"
+    }
+  },
+  {
+    "input": {
+      "email": "From: Maja Bergström <maja.bergstrom@hotmail.com>\nSubject: Double charge on my account - Please investigate\n\nHi there,\n\nI hope this message finds you well. I am contacting your support team regarding an issue I discovered when reviewing my bank statement this morning. It appears that I have been charged twice for my monthly subscription this billing cycle.\n\nSpecifically, on the 3rd of this month, the amount of 299 SEK was deducted from my account not once but twice, within just a few hours of each other. The first transaction went through at approximately 08:14 and the second at 10:47 on the same day. I have the bank transaction IDs for both charges if that would be helpful.\n\nI have been subscribed to your service for about eight months now and have never had any billing problems before. I understand that technical errors can happen, but I would appreciate it if the duplicate charge of 299 SEK could be refunded to my account as soon as possible. I would also like some reassurance that this will not happen again in future billing cycles.\n\nCould you please look into this and confirm once the refund has been processed? I am also happy to forward screenshots of my bank statement if needed.\n\nThank you for your help.\n\nKind regards,\nMaja Bergström"
+    },
+    "expectations": {
+      "sender_name": "Maja Bergström",
+      "sender_email": "maja.bergstrom@hotmail.com",
+      "issue_category": "billing",
+      "urgency": "medium",
+      "summary": "Customer was double charged 299 SEK for subscription on the 3rd of the month, two transactions within hours of each other, requesting refund of duplicate charge"
+    }
+  },
+  {
+    "input": {
+      "email": "From: Oscar Johansson <oscar.johansson@yahoo.se>\nSubject: Cannot access my account for 3 days - Urgent help needed\n\nHello Support Team,\n\nI am reaching out because I have been completely locked out of my account for the past three days and I am running out of ideas on how to fix this on my own. The problem started on Monday evening when I tried to log in as usual but kept receiving an 'Invalid credentials' error despite being absolutely certain that I was entering the correct password.\n\nI followed the instructions on your website to reset my password, but the problem is that the password reset email never arrives in my inbox. I have checked my spam and junk folders multiple times, and there is nothing there either. I have attempted the reset process at least six or seven times across different browsers and even from my phone, but the result is always the same - no email arrives.\n\nThis is causing me real problems because I have important documents and data stored in my account that I urgently need access to for work purposes. I have a deadline coming up this Friday and without access to my account I will not be able to meet it.\n\nI have already tried clearing my browser cache, using incognito mode, and switching from Chrome to Firefox, none of which made any difference. My email address on the account is this one, oscar.johansson@yahoo.se, so I am not sure why the reset emails are not coming through.\n\nPlease help me resolve this as quickly as possible. I am happy to verify my identity in any way necessary.\n\nBest regards,\nOscar Johansson"
+    },
+    "expectations": {
+      "sender_name": "Oscar Johansson",
+      "sender_email": "oscar.johansson@yahoo.se",
+      "issue_category": "technical",
+      "urgency": "high",
+      "summary": "Customer locked out of account for 3 days, password reset emails not arriving despite multiple attempts, has work deadline on Friday and urgently needs access to stored documents"
+    }
+  },
+  {
+    "input": {
+      "email": "From: Linnea Karlsson <linnea.karlsson@gmail.com>\nSubject: Felaktig vara levererad - Beställning #45632\n\nHej,\n\nJag skriver till er angående en beställning jag lade för ungefär tio dagar sedan. Jag beställde en vinterjacka i storlek M i färgen mörkblå, men när paketet äntligen anlände igår fick jag en helt annan jacka än den jag beställde. Jackan jag fick är i storlek XL och i en grön färg som inte ens finns listad på er hemsida.\n\nJag är väldigt besviken eftersom jag verkligen behövde jackan till en resa jag ska göra redan nästa vecka. Jag har planerat inköpet i god tid just för att vara säker på att ha den i tid, men nu befinner jag mig i en situation där jag inte har rätt plagg och knappt har tid att vänta på en ny leverans.\n\nJag har kontrollerat min orderbekräftelse och det framgår tydligt att jag beställde mörkblå jacka i storlek M, artikelnummer JK-2291. Priset jag betalade var 1 299 kronor och jag anser att det är oacceptabelt att få fel produkt skickad till sig utan någon som helst förklaring.\n\nJag önskar i första hand att ni skickar rätt jacka med expressleverans så att jag hinner få den innan min resa. Om det inte är möjligt vill jag ha en fullständig återbetalning så att jag kan köpa jackan någon annanstans. Jag vill också att ni hämtar den felaktiga jackan på min bekostnad, alternativt att ni ordnar en returetikett.\n\nVänligen återkom till mig snarast möjligt så att vi kan lösa detta.\n\nMed vänlig hälsning,\nLinnea Karlsson\nTelefon: 070-123 45 67"
+    },
+    "expectations": {
+      "sender_name": "Linnea Karlsson",
+      "sender_email": "linnea.karlsson@gmail.com",
+      "issue_category": "wrong item delivered",
+      "urgency": "high",
+      "summary": "Customer received wrong jacket, ordered dark blue size M (item JK-2291) but received green size XL, paid 1299 SEK, needs correct item via express delivery before upcoming trip next week or full refund"
+    }
+  }
+]
