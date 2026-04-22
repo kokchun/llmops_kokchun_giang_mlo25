@@ -664,6 +664,18 @@ wheels = [
 ]
 
 [[package]]
+name = "deprecation"
+version = "2.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5a/d3/8ae2869247df154b64c1884d7346d412fed0c49df84db635aab2d1c40e62/deprecation-2.1.0.tar.gz", hash = "sha256:72b3bde64e5d778694b0cf68178aed03d15e15477116add3fb773e581f9518ff", size = 173788, upload-time = "2020-04-20T14:23:38.738Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/c3/253a89ee03fc9b9682f1541728eb66db7db22148cd94f89ab22528cd1e1b/deprecation-2.1.0-py2.py3-none-any.whl", hash = "sha256:a10811591210e1fb0e768a8c25517cabeabcba6f0bf96564f8ff45189f90b14a", size = 11178, upload-time = "2020-04-20T14:23:36.581Z" },
+]
+
+[[package]]
 name = "distro"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1716,12 +1728,62 @@ wheels = [
 ]
 
 [[package]]
+name = "lance-namespace"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "lance-namespace-urllib3-client" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0c/24/3de040859ec51a778760c61a7d2285df6c4ceee67f7d36b510eafba80603/lance_namespace-0.7.0.tar.gz", hash = "sha256:ecfe1f1ed6abfb0e767ddf74196dd321eda920ded78fd6c5162b407b0efb2c6e", size = 10528, upload-time = "2026-04-21T23:43:46.364Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b8/58/4ceee78927be6897c363f6a7bcbe41596ddb924420a1a4add55878f8f45c/lance_namespace-0.7.0-py3-none-any.whl", hash = "sha256:b9a84eb1b2077116b70b2df26d27704c0b85a47174ba41ee1ad8b67e2370a16d", size = 12353, upload-time = "2026-04-21T23:43:42.223Z" },
+]
+
+[[package]]
+name = "lance-namespace-urllib3-client"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pydantic" },
+    { name = "python-dateutil" },
+    { name = "typing-extensions" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/71/2f/2f77b5c32cf8c0133f1763ee87d8030c3369483efbe76b976384362ffe92/lance_namespace_urllib3_client-0.7.0.tar.gz", hash = "sha256:e1384d4d0c6b1de4b344bb709ea53bd9cef6f471b864b1ee8968aa89698a30c5", size = 182930, upload-time = "2026-04-21T23:43:43.388Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/13/ce/70adb410015e73ff4419c7e47edc5e1c142b13f4ed9438f600beaeedbcfd/lance_namespace_urllib3_client-0.7.0-py3-none-any.whl", hash = "sha256:d0aa13b510abf4b0cd8bc5c602207b8c9afc99ef4de1f4ea023492ccb5ec07e9", size = 313715, upload-time = "2026-04-21T23:43:44.973Z" },
+]
+
+[[package]]
+name = "lancedb"
+version = "0.30.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "deprecation" },
+    { name = "lance-namespace" },
+    { name = "numpy" },
+    { name = "packaging" },
+    { name = "pyarrow" },
+    { name = "pydantic" },
+    { name = "tqdm" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7f/87/67b23006663be175c396ae8f7c6ac98bfa4728de5b5583016b8b8c54eb14/lancedb-0.30.2-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:3dd8cb9e2e25efb32c088b24b3fbc57f3f24a636f4b8ad4b287b1eb52f6b5075", size = 41720461, upload-time = "2026-03-31T22:42:32.853Z" },
+    { url = "https://files.pythonhosted.org/packages/78/68/b3b5f638f8de91de75751414114690cae9c294dc79d9ab2602f4562ed9df/lancedb-0.30.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f083d50b257f645bd5c4b295d693648ffb37640ce1e9d72f55041b1382f0dbd6", size = 43626135, upload-time = "2026-03-31T22:50:28.577Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/d1/ea8b74a8b56dd4925cc9cb9cc23c7d9675708a7f6b33d22136dc7bb34dbc/lancedb-0.30.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3aef5538db9cd82af79c90831035b4d67e9aa182ef73095a1b919caddf9bb7a5", size = 46619289, upload-time = "2026-03-31T22:55:02.242Z" },
+    { url = "https://files.pythonhosted.org/packages/74/4b/5bfeacf948cfc3452b286a792dcbbfaf04649ef0820e1d3790d47bf5527e/lancedb-0.30.2-cp39-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:8b161cb1da04ae6ad45afe10093cfe4107821d93e7712b50200c435d6f4c8a20", size = 43641193, upload-time = "2026-03-31T22:51:13.63Z" },
+    { url = "https://files.pythonhosted.org/packages/28/4c/a51af0ce1d18fd86afa3e8538a81abf5523d24632abe7665ce6795b8009d/lancedb-0.30.2-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:7fabc0f57944fd79ddef62ed8cf4df770654b172b1ad1019a999304fed3169f3", size = 46665361, upload-time = "2026-03-31T22:54:20.282Z" },
+    { url = "https://files.pythonhosted.org/packages/88/d0/7e44e8143ac2dae8979ba882cc33d4af7b8da4741fb0361497e69b4a4379/lancedb-0.30.2-cp39-abi3-win_amd64.whl", hash = "sha256:531da53002c1c6fda829afccc8ced3056ef58eb036f09ddb2b94a06877ecc66c", size = 50940681, upload-time = "2026-03-31T23:25:52.35Z" },
+]
+
+[[package]]
 name = "llmops-kokchun-giang-mlo25"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "fastapi" },
     { name = "ipykernel" },
+    { name = "lancedb" },
     { name = "mlflow" },
     { name = "pandas" },
     { name = "pydantic-ai" },
@@ -1733,6 +1795,7 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", specifier = ">=0.135.3" },
     { name = "ipykernel", specifier = ">=7.2.0" },
+    { name = "lancedb", specifier = ">=0.30.2" },
     { name = "mlflow", specifier = ">=3.11" },
     { name = "pandas", specifier = "<3" },
     { name = "pydantic-ai", specifier = ">=1.77.0" },
